@@ -6,3 +6,16 @@
     font-family: caviar_dreams;
     src: url("/sherezadeatienzar/css/fonts/CaviarDreams.ttf");
 }
+
+
+#nombre{
+    font-family: prof_jorge;
+}
+
+h1{
+    font-size: 36pt !important;
+}
+
+small {
+    font-size: 25pt !important;
+}
