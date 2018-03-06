@@ -19,3 +19,11 @@ h1{
 small {
     font-size: 25pt !important;
 }
+
+#menu {
+    background-color: bisque;
+}
+
+#menu li {
+    margin: 2% 0;
+}
