@@ -1,0 +1,213 @@
+@font-face{
+    font-family: prof_jorge;
+    src: url("/sherezadeatienzar/css/fonts/Prof_Jorge.ttf");
+}
+/*@font-face{
+    font-family: byrow;
+    src: url("/css/fonts/Byrow.otf");
+}
+@font-face{
+    font-family: alex_brush;
+    src: url("/css/fonts/AlexBrush-Regular.ttf");
+}*/
+@font-face{
+    font-family: caviar_dreams;
+    src: url("/sherezadeatienzar/css/fonts/CaviarDreams.ttf");
+}
+/*
+@font-face{
+    font-family: ayres;
+    src: url("/css/fonts/Ayres.ttf");
+}*/
+
+
+
+body#home{
+    background-image: url("/sherezadeatienzar/img/Sherezade_025_Web.jpeg");
+    background-attachment: fixed;
+    background-position: -200px 30%; 
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+body#no_home{
+    background-image: url("/sherezadeatienzar/img/Sherezade_025_Web_B.png");
+    background-attachment: fixed;
+    background-position: -200px 30%; 
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+a , a:visited{
+   text-decoration: none; 
+   font-family: caviar_dreams;
+   color: rgb(22, 22, 22)
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+
+p {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 13px;
+}
+#nombre {
+    /*color: rgb(39, 39, 39);*/
+    font-family: prof_jorge;
+    margin-top: 60px;
+    position: relative;
+    text-align: right;
+    /*font-size: 25px;*/
+    padding-right: 7%;
+    font-style: normal;
+}
+
+h1 {
+    font-size: 50pt !important;
+}
+
+.icon-bar {
+    color: black !important;
+}
+
+#conjunto{
+    display: block;
+    width: 100%;
+
+}
+
+#menu{
+    /*z-index: 9999999999;*/
+    position: relative;
+    float: right;
+    width: 20%;
+    margin-top: 75px;
+    margin-right: 50px;
+}
+
+#menu_lateral {
+    float: right;
+    
+
+}
+
+#menu_lista{
+    text-align: left;
+    font-size: 20px;
+    list-style: none;
+    padding-right: 15%;
+}
+
+
+#menu_lista li{
+    padding: 5px 0 5px 0;
+}
+
+h3{
+    text-align: center;
+    font-family: caviar_dreams;
+}
+
+div#curriculum , div#repre , div#video{
+    width: 60%;
+    float: left;
+    margin-left: 10px;
+    padding-left: 110px;
+    padding-top: 10px;
+
+}
+
+
+div#video h3{
+    padding: 20px;
+    text-align: left;
+
+}
+
+div#video iframe{
+    box-shadow: 0 15px 50px;
+}
+
+div#curriculum li{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 13px;
+}
+
+div#curriculum ul{
+    list-style: none;
+}
+
+div#repre a{
+    text-align: center;
+    font-size: 20px;
+    
+}
+
+div#curriculum div{
+    width: 350px;
+    float: left;
+}
+
+
+/* PRUEBA SLIDER INICIO*/
+
+#c-slider{
+    margin: auto;
+    width: 65%;
+    max-width: 414px;
+    position: relative;
+    overflow: hidden; /*Esconde todo lo que esté fuera del div*/
+    box-shadow: 0 15px 50px; /*sombrita*/
+    float: left;
+    margin-left: 20%;
+
+}
+
+#slider{
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    width: 1800%; /*depende del numero de imagenes, suma 100 por cada una*/
+}
+
+#slider section{
+    width: 65%;
+}
+
+#slider img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+#btn-prev, #btn-next {
+    width: 40px;
+    height: 40px;
+    background: rgba(255, 255, 255, 0.5);
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    line-height: 40px;
+    font-size:25px;
+    font-weight: normal;
+    text-align:  center;
+    border-radius: 50%;
+    font-family: monospace;
+    cursor: pointer; /*hace que aparezca la manita cuando hover*/
+}
+
+#btn-prev:hover , #btn-next:hover {
+    background: rgba(255, 255, 255, 0.75);
+}
+#btn-prev{
+    left: 10px;
+}
+
+#btn-next{
+    right: 10px;
+}
+/* PRUEBA SLIDER FINAL*/
