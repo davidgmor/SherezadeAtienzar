@@ -54,14 +54,22 @@ p {
     font-size: 13px;
 }
 #nombre {
-    color: rgb(39, 39, 39);
+    /*color: rgb(39, 39, 39);*/
     font-family: prof_jorge;
     margin-top: 60px;
     position: relative;
     text-align: right;
-    font-size: 35px;
+    /*font-size: 25px;*/
     padding-right: 7%;
     font-style: normal;
+}
+
+h1 {
+    font-size: 50pt !important;
+}
+
+.icon-bar {
+    color: black !important;
 }
 
 #conjunto{
@@ -71,7 +79,7 @@ p {
 }
 
 #menu{
-    z-index: 9999999999;
+    /*z-index: 9999999999;*/
     position: relative;
     float: right;
     width: 20%;

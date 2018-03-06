@@ -11,24 +11,50 @@
 
 <body id="home">
 
-    <div id="nombre" role="header" aria-label="Sherezade Atienzar">
-        <h1>Sherezade Atienzar</h1>
-    </div>
-
-    <div id="conjunto"> 
-        <div id="menu">
-            <aside class="menu_lateral" role="menu">
-                    <ul id="menu_lista">
-                        <a href="index.html" aria-label="index" role="menuitem"><li>Inicio</li></a>
-                        <a href="book.html" aria-label="book" role="menuitem"><li>Book</li></a>
-                        <a href="showreel.html" aria-label="showreel" role="menuitem"><li>Showreel</li></a>
-                        <a href="cv.html" aria-label="curriculum" role="menuitem"><li>Curriculum</li></a>
-                        <a href="representacion.html" aria-label="representation" role="menuitem"><li>Representación</li></a>
-                    </ul>
-                </aside>
+    <div class="container-fluid">
+        <div class="row">
+            <div id="nombre" class="col-sm-12" role="header" aria-label="Sherezade Atienzar">
+                <h1>Sherezade Atienzar</h1>
+                <small style="font-size: 40pt">Actríz</small>
+            </div>
         </div>
-
     </div>
+
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+    </div>
+
+
+    <div class="container-fluid">
+        <div class="row">
+            <div id="conjunto" class="col-sm-12"> 
+                    <div id="menu">
+                        <div class="collapse navbar-collapse" id="myNavbar">
+                            <aside class="menu_lateral" role="menu">
+                                <ul id="menu_lista">
+                                    <a href="index.html" aria-label="index" role="menuitem"><li>Inicio</li></a>
+                                    <a href="book.html" aria-label="book" role="menuitem"><li>Book</li></a>
+                                    <a href="showreel.html" aria-label="showreel" role="menuitem"><li>Showreel</li></a>
+                                    <a href="cv.html" aria-label="curriculum" role="menuitem"><li>Curriculum</li></a>
+                                    <a href="representacion.html" aria-label="representation" role="menuitem"><li>Representación</li></a>
+                                </ul>
+                            </aside>
+                        </div>    
+                </div>
+            </div>
+        </div>
+    </div>
+            
+
+    <footers>
+        <i class="fa fa-facebook-square" style="font-size:24px"></i>
+        <i class="fa fa-instagram" style="font-size:24px"></i>
+        <i class="fa fa-youtube-play" style="font-size:24px"></i>
+    </footer>
 
     <script src="../vendor/jquery/jquery.min.js"></script>
     <script src="../vendor/bootstrap/js/bootstrap.min.js"></script>
