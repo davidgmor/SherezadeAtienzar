@@ -1,29 +1,29 @@
 @font-face{
     font-family: prof_jorge;
-    src: url("/css/fonts/Prof_Jorge.ttf");
+    src: url("/sherezadeatienzar/css/fonts/Prof_Jorge.ttf");
 }
-@font-face{
+/*@font-face{
     font-family: byrow;
     src: url("/css/fonts/Byrow.otf");
 }
 @font-face{
     font-family: alex_brush;
     src: url("/css/fonts/AlexBrush-Regular.ttf");
-}
+}*/
 @font-face{
     font-family: caviar_dreams;
-    src: url("/css/fonts/CaviarDreams.ttf");
+    src: url("/sherezadeatienzar/css/fonts/CaviarDreams.ttf");
 }
-
+/*
 @font-face{
     font-family: ayres;
     src: url("/css/fonts/Ayres.ttf");
-}
+}*/
 
 
 
 body#home{
-    background-image: url("/img/Sherezade_025_Web.jpeg");
+    background-image: url("/sherezadeatienzar/img/Sherezade_025_Web.jpeg");
     background-attachment: fixed;
     background-position: -200px 30%; 
     background-repeat: no-repeat;
@@ -31,7 +31,7 @@ body#home{
 }
 
 body#no_home{
-    background-image: url("/img/Sherezade_025_Web_B.png");
+    background-image: url("/sherezadeatienzar/img/Sherezade_025_Web_B.png");
     background-attachment: fixed;
     background-position: -200px 30%; 
     background-repeat: no-repeat;
