@@ -7,6 +7,14 @@
     src: url("/sherezadeatienzar/css/fonts/CaviarDreams.ttf");
 }
 
+body#home {
+    background-image: url("/sherezadeatienzar/img/Sherezade_025_Web.jpeg");
+    background-repeat: no-repeat;
+    background-size: 950px 524px;
+    background-position-x: -400px;
+    background-position-y: 125px;
+}
+
 
 #nombre{
     font-family: prof_jorge;
@@ -21,7 +29,7 @@ small {
 }
 
 #menu {
-    background-color: bisque;
+    background-color: transparent;
 }
 
 #menu li {
