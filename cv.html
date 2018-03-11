@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -5,88 +6,136 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="author" content="David Moreno">
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="../vendor/bootstrap/css/bootstrap.min.css">
     <title>Sherezade Atienzar</title>
 </head>
 <body id="no_home">
-
-    <div id="nombre"aria-label="Sherezade Atienzar">
-            <h1>Sherezade Atienzar</h1>
-        </div>
     
-        <div id="conjunto"> 
+<!--todo esto es el nombre y el menu, tiene que ir en todas las paginas-->
+
+    <div class="container-fluid">
+        <div class="row">
+            <div id="nombre" class="col-xs-12 text-right" role="header" aria-label="Sherezade Atienzar">
+                <h1>Sherezade Atienzar</h1>
+                <small>Actríz</small>
+            </div>
+        </div>
+        <div class="row">
+            <div class="navbar-header col-xs-12 text-right">
+                <button id="boton-menu" type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="container-fluid">
+            <div class="row">
+                <div id="conjunto" class="col-sm-12 text-right"> 
+                        <div id="menu">
+                            <div class="collapse navbar-collapse" id="myNavbar">
+                                <aside class="menu_lateral" role="menu">
+                                    <ul class="list-unstyled" id="menu_lista">
+                                        <a href="index.html" aria-label="index" role="menuitem"><li>Inicio</li></a>
+                                        <a href="book.html" aria-label="book" role="menuitem"><li>Book</li></a>
+                                        <a href="showreel.html" aria-label="showreel" role="menuitem"><li>Showreel</li></a>
+                                        <a href="cv.html" aria-label="curriculum" role="menuitem"><li>Curriculum</li></a>
+                                        <a href="representacion.html" aria-label="representation" role="menuitem"><li>Representación</li></a>
+                                    </ul>
+                                </aside>
+                            </div>    
+                    </div>
+                </div>
+            </div>
+        </div>
+
+<!-- FIN DE NOMBRE Y MENU -->
+
+
+<div class="container-fluid">
+    <div class="row">
+
             <div id="curriculum" role="main" aria-label="curriculum">
 
-                <div>
-                    <h3>Televisión</h3>
-                    <ul>
-                        <li><b>"LA VERDAD"</b> - Telecinco</li>
-                        <li><b>"CENTRO MÉDICO"</b> - TVE</li>
-                    </ul>
-                </div>
-                <div>
-                    <h3>Teatro</h3>
-                    <ul>
-                        <li><b>"INFERNO"</b> - Dir. Julián Fuentes Reta</li>
-                        <li><b>"LORQUIANAS"</b> - Dir. Jorge Muriel</li>
-                        <li><b>"PROMESAS"</b> - Dir. Paula Soldevilla</li>
-                        <li><b>"LA RATONERA"</b> - Dir. Sixto Cid</li>
-                    </ul>
-                </div>
-                <div>
-                    <h3>Cortometrajes</h3>
-                    <ul>
-                        <li><b>"REPLAY"</b> - Dir. Christian Vélez</li>
-                        <li><b>"PANTOMIME"</b> - Dir. Laura del Rio</li>
-                        <li><b>"LACHA"</b> - Dir. Ignacio Arrue</li>
-                        <li><b>"¿QUÉ HACES AQUÍ?"</b> - Dir. Unai Mateo</li>
-                        <li><b>"DESMOTIVACIONES DOMÉSTICAS"</b> - Dir. Jennifer Da Silva</li>
-                        <li><b>"GASOLINA SIN PLOMO"</b> - Dir. Guillermo Dieste</li>
-                        <li><b>"CUANDO CALLAN LAS MIRADAS"</b> - Dir. Christian Vélez</li>
-                        <li><b>"1992"</b> - Dir. Adrián Sosa</li>
-                    </ul>
-                </div>
-                <div>
-                    <h3>Web Series</h3>
-                    <ul>
-                        <li><b>"EL MALETÍN MAX FACTOR"</b> - Dir. Enrique Caruncho</li>
-                        <li><b>"EL MALETÍN 2 MAX FACTOR"</b> - Dir Juana Macías</li>
-                    </ul>
-                </div>
-                <div>
-                    <h3>Formación</h3>
-                    <ul>
-                        <li>Grado oficial de artes escénicas en la <strong>Escuela Universitaria de Artes y Espectáculos TAI</strong></li>
-                        <li>Curso regular en el <strong>Estudio Corazza para el actor</strong></li>
-                        <li>Curso intensivo de Interpretación ante la cámara con <strong>Eduardo Chapero Jackson</strong></li>
-                        <li>Taller para el actor con Ana García en <strong>Estudio Corazza para el actor</strong></li>
-                        <li>Máscaras de la Comedia del arte con <strong>Filippo Verladita</strong></li>
-                        <li>Solfeo, canto y violín</li>
-                        <li>Ballet clásico y flamenco</li>
-                    </ul>
-                </div>
-                <div>
-                    <h3>Idiomas</h3>
-                    <ul>
-                        <li>Castellano</li>
-                        <li>Inglés</li>
-                    </ul>
-                </div>
-            </div>
-    
-    
-            <div id="menu">
-                <aside class="menu_lateral" role="menu">
-                        <ul id="menu_lista">
-                            <a href="index.html" aria-label="index" role="menuitem"><li>Inicio</li></a>
-                            <a href="book.html" aria-label="book" role="menuitem"><li>Book</li></a>
-                            <a href="showreel.html" aria-label="showreel" role="menuitem"><li>Showreel</li></a>
-                            <a href="cv.html" aria-label="curriculum" role="menuitem"><li>Curriculum</li></a>
-                            <a href="representacion.html" aria-label="representation" role="menuitem"><li>Representación</li></a>
+                    <div>
+                        <h3>Televisión</h3>
+                        <ul>
+                            <li><b>"LA VERDAD"</b> - Telecinco</li>
+                            <li><b>"CENTRO MÉDICO"</b> - TVE</li>
                         </ul>
-                    </aside>
-            </div>
-    
-        </div>
+                    </div>
+                    <div>
+                        <h3>Teatro</h3>
+                        <ul>
+                            <li><b>"INFERNO"</b> - Dir. Julián Fuentes Reta</li>
+                            <li><b>"LORQUIANAS"</b> - Dir. Jorge Muriel</li>
+                            <li><b>"PROMESAS"</b> - Dir. Paula Soldevilla</li>
+                            <li><b>"LA RATONERA"</b> - Dir. Sixto Cid</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h3>Cortometrajes</h3>
+                        <ul>
+                            <li><b>"REPLAY"</b> - Dir. Christian Vélez</li>
+                            <li><b>"PANTOMIME"</b> - Dir. Laura del Rio</li>
+                            <li><b>"LACHA"</b> - Dir. Ignacio Arrue</li>
+                            <li><b>"¿QUÉ HACES AQUÍ?"</b> - Dir. Unai Mateo</li>
+                            <li><b>"DESMOTIVACIONES DOMÉSTICAS"</b> - Dir. Jennifer Da Silva</li>
+                            <li><b>"GASOLINA SIN PLOMO"</b> - Dir. Guillermo Dieste</li>
+                            <li><b>"CUANDO CALLAN LAS MIRADAS"</b> - Dir. Christian Vélez</li>
+                            <li><b>"1992"</b> - Dir. Adrián Sosa</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h3>Web Series</h3>
+                        <ul>
+                            <li><b>"EL MALETÍN MAX FACTOR"</b> - Dir. Enrique Caruncho</li>
+                            <li><b>"EL MALETÍN 2 MAX FACTOR"</b> - Dir Juana Macías</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h3>Formación</h3>
+                        <ul>
+                            <li>Grado oficial de artes escénicas en la <strong>Escuela Universitaria de Artes y Espectáculos TAI</strong></li>
+                            <li>Curso regular en el <strong>Estudio Corazza para el actor</strong></li>
+                            <li>Curso intensivo de Interpretación ante la cámara con <strong>Eduardo Chapero Jackson</strong></li>
+                            <li>Taller para el actor con Ana García en <strong>Estudio Corazza para el actor</strong></li>
+                            <li>Máscaras de la Comedia del arte con <strong>Filippo Verladita</strong></li>
+                            <li>Solfeo, canto y violín</li>
+                            <li>Ballet clásico y flamenco</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h3>Idiomas</h3>
+                        <ul>
+                            <li>Castellano</li>
+                            <li>Inglés</li>
+                        </ul>
+                    </div>
+                </div>
 
+
+    </div>
+</div>
+
+
+
+
+<!-- FOOTER-->
+
+<footer class="navbar-fixed-bottom text-right">
+        <a href="https://www.facebook.com/sherezade.garciaatienzar"><img src="img/face.png" alt="icono con enlace a facebook" width="50px" height="50px"></a>
+        <a href="https://www.instagram.com/milyunan0ches/"><img src="img/inst.png" alt="icono con enlace a instagram" width="50px" height="50px"></a>
+        <a href="https://www.youtube.com/user/MsBluewords"><img src="img/youtube.png" alt="icono con enlace a youtube" width="50px" height="50px"></a>
+    </footer>
+
+<!-- FIN DEL FOOTER-->
+
+
+    <script src="../vendor/jquery/jquery.min.js"></script>
+    <script src="../vendor/bootstrap/js/bootstrap.min.js"></script>
 </body>
 </html>
