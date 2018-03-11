@@ -11,14 +11,30 @@ body#home {
     background-image: url("/sherezadeatienzar/img/Sherezade_025_Web.jpeg");
     background-repeat: no-repeat;
     background-size: 1300px 867px;
-    background-position-x: -500px;
-    background-position-y: 100px;
+    background-position-x: -527px;
+    /*background-position-y: 5px;*/
 }
+
+body#no_home {
+    background-image: url("/sherezadeatienzar/img/Sherezade_025_Web_B.png");
+    background-repeat: no-repeat;
+    background-size: 1300px 867px;
+    background-position-x: -527px;
+    /*background-position-y: 5px;*/
+}
+
 
 
 #nombre{
     font-family: prof_jorge;
 }
+
+/*#trans {
+    background: #ffffff;
+    opacity: 0.6;
+    /*filter: alpha(opacity=60);*/
+}*/
+
 
 h1{
     font-size: 36pt !important;
@@ -35,3 +51,103 @@ small {
 #menu li {
     margin: 2% 0;
 }
+
+#boton-menu {
+    margin-right: 0px !important;
+}
+
+.icon-bar {
+    background-color: black !important;
+}
+
+a , a:visited{
+    text-decoration: none; 
+    font-family: caviar_dreams;
+    color: rgb(22, 22, 22)
+ }
+ 
+ a:hover{
+     text-decoration: underline;
+ }
+
+footer {
+    margin-right: 4%;
+}
+
+h3{
+    text-align: center;
+    font-family: caviar_dreams !important;
+}
+
+/* NO FUNCIONA LA MEDIA QUERY*/
+@media only screen and (width-max: 768px) {
+
+    #menu_lista {
+        margin-right: 5% !important;
+     }
+ }
+
+
+
+
+
+ /* PRUEBA SLIDER INICIO*/
+
+#c-slider{
+    margin: auto;
+    width: 65%;
+    max-width: 414px;
+    position: relative;
+    overflow: hidden; /*Esconde todo lo que esté fuera del div*/
+    box-shadow: 0 15px 50px; /*sombrita*/
+    float: left;
+    margin-left: 20%;
+
+}
+
+#slider{
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    width: 1800%; /*depende del numero de imagenes, suma 100 por cada una*/
+}
+
+#slider section{
+    width: 65%;
+}
+
+#slider img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+#btn-prev, #btn-next {
+    width: 40px;
+    height: 40px;
+    background: rgba(255, 255, 255, 0.5);
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    line-height: 40px;
+    font-size:25px;
+    font-weight: normal;
+    text-align:  center;
+    border-radius: 50%;
+    font-family: monospace;
+    cursor: pointer; /*hace que aparezca la manita cuando hover*/
+}
+
+#btn-prev:hover , #btn-next:hover {
+    background: rgba(255, 255, 255, 0.75);
+}
+#btn-prev{
+    left: 10px;
+}
+
+#btn-next{
+    right: 10px;
+}
+/* PRUEBA SLIDER FINAL*/

@@ -5,35 +5,88 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="author" content="David Moreno">
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="../vendor/bootstrap/css/bootstrap.min.css">
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <title>Sherezade Atienzar</title>
 </head>
 
 <body id="no_home">
 
-    <div id="nombre" aria-label="Sherezade Atienzar">
-        <h1>Sherezade Atienzar</h1>
+<!--todo esto es el nombre y el menu, tiene que ir en todas las paginas-->
+
+<div class="container-fluid">
+        <div class="row">
+            <div id="nombre" class="col-xs-12 text-right" role="header" aria-label="Sherezade Atienzar">
+                <h1>Sherezade Atienzar</h1>
+                <small>Actríz</small>
+            </div>
+        </div>
+        <div class="row">
+            <div class="navbar-header col-xs-12 text-right">
+                <button id="boton-menu" type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+
+        </div>
     </div>
 
-    <div id="conjunto"> 
-        <div id="video" aria-label="video">
-            <h3>SHOWREEL</h3>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/pvha6AJthbY?rel=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-        </div>
-
-
-        <div id="menu">
-            <aside class="menu_lateral" role="menu">
-                    <ul id="menu_lista">
-                        <a href="index.html" aria-label="index" role="menuitem"><li>Inicio</li></a>
-                        <a href="book.html" aria-label="book" role="menuitem"><li>Book</li></a>
-                        <a href="showreel.html" aria-label="showreel" role="menuitem"><li>Showreel</li></a>
-                        <a href="cv.html" aria-label="curriculum" role="menuitem"><li>Curriculum</li></a>
-                        <a href="representacion.html" aria-label="representation" role="menuitem"><li>Representación</li></a>
-                    </ul>
-                </aside>
-        </div>
-
+    <div class="container-fluid">
+            <div class="row">
+                <div id="conjunto" class="col-sm-12 text-right"> 
+                        <div id="menu">
+                            <div class="collapse navbar-collapse" id="myNavbar">
+                                <aside class="menu_lateral" role="menu">
+                                    <ul class="list-unstyled" id="menu_lista">
+                                        <a href="index.html" aria-label="index" role="menuitem"><li>Inicio</li></a>
+                                        <a href="book.html" aria-label="book" role="menuitem"><li>Book</li></a>
+                                        <a href="showreel.html" aria-label="showreel" role="menuitem"><li>Showreel</li></a>
+                                        <a href="cv.html" aria-label="curriculum" role="menuitem"><li>Curriculum</li></a>
+                                        <a href="representacion.html" aria-label="representation" role="menuitem"><li>Representación</li></a>
+                                    </ul>
+                                </aside>
+                            </div>    
+                    </div>
+                </div>
+            </div>
     </div>
 
+<!-- FIN DE NOMBRE Y MENU -->
+
+
+<!-- COMIENZO SHOWREEL -->
+
+<div class="container-fluid">
+    <div class="row">
+            <div id="video" aria-label="video" class="col-xs-12">
+                <h3>SHOWREEL</h3>
+            
+            <div class="col-xs-12">
+                <iframe  src="https://www.youtube.com/embed/pvha6AJthbY?rel=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+            </div>
+            </div>
+
+    </div>
+</div>
+
+
+<!-- FIN SHOWREEL -->
+
+
+<!-- FOOTER-->
+
+<footer class="navbar-fixed-bottom text-right">
+        <a href="https://www.facebook.com/sherezade.garciaatienzar"><img src="img/face.png" alt="icono con enlace a facebook" width="50px" height="50px"></a>
+        <a href="https://www.instagram.com/milyunan0ches/"><img src="img/inst.png" alt="icono con enlace a instagram" width="50px" height="50px"></a>
+        <a href="https://www.youtube.com/user/MsBluewords"><img src="img/youtube.png" alt="icono con enlace a youtube" width="50px" height="50px"></a>
+    </footer>
+
+<!-- FIN DEL FOOTER-->
+
+
+    <script src="../vendor/jquery/jquery.min.js"></script>
+    <script src="../vendor/bootstrap/js/bootstrap.min.js"></script>
 </body>
 </html>
