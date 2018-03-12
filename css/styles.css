@@ -46,6 +46,7 @@ small {
 
 #menu {
     background-color: transparent;
+    position: relative;
 }
 
 #menu li {
@@ -95,7 +96,7 @@ div_slider {
 
 iframe {
     width: 100%;
-    height: auto;
+    height: 50%%;
 }
 
 /* NO FUNCIONA LA MEDIA QUERY*/
