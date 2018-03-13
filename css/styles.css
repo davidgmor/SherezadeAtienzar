@@ -29,13 +29,6 @@ body#no_home {
     font-family: prof_jorge;
 }
 
-/*#trans {
-    background: #ffffff;
-    opacity: 0.6;
-    /*filter: alpha(opacity=60);
-}*/
-
-
 h1{
     font-size: 36pt !important;
 }
@@ -50,7 +43,7 @@ small {
 }
 
 #menu li {
-    margin: 2% 0;
+    margin: 15px 0;
 }
 
 #boton-menu {
@@ -96,15 +89,49 @@ div_slider {
 
 iframe {
     width: 100%;
-    height: 50%%;
+    height: 50%;
 }
 
 /* NO FUNCIONA LA MEDIA QUERY*/
-@media only screen and (width-min: 768px) {
+@media screen and (min-width: 768px) {
 
     #menu_lista {
         margin-right: 25% !important;
      }
+
+     #menu_lista_index {
+         margin-right: 10% !important;
+     }
+
+     h1 {
+         margin-right: 15% !important;
+     }
+
+     small {
+         margin-right: 15% !important;
+     }
+
+     #menu li {
+        margin: 25px 0;
+    }
+
+    body#home {
+        
+        background-attachment: fixed;
+        background-position: -200px 30%;
+        background-repeat: no-repeat;
+        background-size: cover;
+
+    }
+    
+    body#no_home {
+        background-image: url("/sherezadeatienzar/img/Sherezade_025_Web_B.png");
+        background-attachment: fixed;
+        background-position: -200px 30%;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
  }
 
 
