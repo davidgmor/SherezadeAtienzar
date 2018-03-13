@@ -54,6 +54,7 @@ small {
 
 .icon-bar {
     background-color: black !important;
+
 }
 
 a , a:visited{
@@ -137,9 +138,23 @@ iframe {
 
  }
 
+/* PRUEBA ANIMACION MENU*/
 
+.change #bar1 {
+    -webkit-transform: rotate(-45deg) translate(-5px, 4px);
+    transform: rotate(-45deg) translate(-5px, 4px);
+}
 
+.change #bar2 {opacity: 0;}
 
+.change #bar3 {
+    -webkit-transform: rotate(45deg) translate(-5px, -4px);
+    transform: rotate(45deg) translate(-5px, -4px);
+}
+
+#bar1, #bar2, #bar3 {
+    transition: 0.4s;
+}
 
  /* PRUEBA SLIDER INICIO*/
 

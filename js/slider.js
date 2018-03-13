@@ -37,3 +37,5 @@ siguiente.on('click', function() {
 anterior.on('click', function() {
     moverI();
 })
+
+
